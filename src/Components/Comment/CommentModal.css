@@ -1,0 +1,36 @@
+.comment{
+    max-height: 45vh;
+    overflow-y: scroll;
+}
+/* .comment::-webkit-scrollbar{
+    display: none;
+} */
+.commentInputs{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dots {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    /* position: ; */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+}
+
+.dropdown:hover .dots {
+    background-color: white;
+}

@@ -1,0 +1,38 @@
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+.chat{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    min-width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dots {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+}
+
+.dropdown:hover .dots {
+    background-color: white;
+}
+.chatContainer {
+    width: 400px !important;
+}

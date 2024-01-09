@@ -1,0 +1,3 @@
+export const FOLLOWING_USER_STORY = 'FOLLOWING_USER_STORY';
+export const USER_STORY = 'USER_STORY';
+export const CREATE_STORY = 'CREATE_STORY';
